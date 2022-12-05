@@ -1,0 +1,11 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:file:///./tmp/testdb
+    username: sa
+    password:
+
+  flyway:
+    url: jdbc:h2:file:./tmp/testdb
+    baseline-on-migrate: true
+    user: sa
+    password:
